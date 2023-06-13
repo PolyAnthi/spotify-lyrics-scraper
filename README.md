@@ -22,7 +22,6 @@ To obtain the sp_dc or sp_key:
 
 ### Examples
 - Always using: `import spotify_lyrics_scraper as spotify`
-- To obtain the sp_dc, please check out https://github.com/akashrchandran/syrics/wiki/Finding-sp_dc. This is required to have access to the lyrics API.
 ##### Example 1
 ```
 token = spotify.getToken("SP_DC Here")
