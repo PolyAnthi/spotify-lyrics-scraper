@@ -5,8 +5,8 @@ This Spotify Lyrics Grabber is a tool to grab Spotify Lyrics of any song, not ju
 **Table of Contents**
 
 - [Installation](#installation)
-- [Examples](#examples)
 - [Obtaining sp_key and sp_dc](#obtaining)
+- [Examples](#examples)
 
 ### Installation
 To install, run `pip install spotify-lyrics-scraper` in your command prompt. To import it, I recommend `import spotify_lyrics_scraper as spotify`
