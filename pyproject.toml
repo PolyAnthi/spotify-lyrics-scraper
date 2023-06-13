@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling", "requests", "requests[socks]"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spotify_lyrics_scraper"
+version = "1.2.0"
+authors = [
+  { name="PolyAnthi", email="polyanthi_pumicing@aleeas.com" },
+]
+description = "This allows you to grab Spotify lyrics from their API. You can input song names or track IDs. Supports proxies."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
