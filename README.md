@@ -1,5 +1,5 @@
 # Spotify Lyrics Grabber
-- This Spotify Lyrics Grabber is a tool to grab Spotify Lyrics of any song, not just the one you are listening to.
+This Spotify Lyrics Grabber is a tool to grab Spotify Lyrics of any song, not just the one you are listening to.
 - PyPi: https://pypi.org/project/spotify-lyrics-scraper/
 
 **Table of Contents**
