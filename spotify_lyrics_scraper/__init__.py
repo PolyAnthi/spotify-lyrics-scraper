@@ -22,7 +22,6 @@ def getToken(sp_dc: str, sp_key: str = None) -> dict:
     if sp_key: cookies["sp_key"] = sp_key
     
     r = requests.get("https://open.spotify.com/get_access_token?reason=transport&productType=web_player", headers=headers, cookies=cookies)
-    print(r.json())
     if r.json()["isAnonymous"] == False: return {"token": r.json()["accessToken"], "expiry": r.json()["accessTokenExpirationTimestampMs"]}
     else: return {"status": False, "message": "Error while trying to grab Spotify token.", "data": r.text}
 
