@@ -16,7 +16,7 @@ To obtain the sp_dc or sp_key:
 - Open a ***new Incognito Window*** in your browser. Head to https://accounts.spotify.com/en/login?continue=https:%2F%2Fopen.spotify.com%2F
 - Open Developer Tools (CTRL+SHIFT+I or F12) and head to the "Network" tab and make sure it is recording.
 - Login to Spotify.
-- Search/Filter for `?flow_id` in the "Network" tab.
+- Search/Filter for `?flow_id` or `?flow` (if ?flow_id is not available) in the "Network" tab.
 - Under cookies for the request, you will see "sp_dc" and "sp_key".
 - Close the window ***WITHOUT LOGGING OUT*** (else said cookies will be made invalid).
 
