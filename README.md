@@ -1,6 +1,5 @@
 # Spotify Lyrics Grabber
 This Spotify Lyrics Grabber is a tool to grab Spotify Lyrics of any song, not just the one you are listening to.
-- PyPi: https://pypi.org/project/spotify-lyrics-scraper/
 
 **Table of Contents**
 
@@ -16,12 +15,12 @@ To obtain the sp_dc or sp_key:
 - Open a ***new Incognito Window*** in your browser. Head to https://accounts.spotify.com/en/login?continue=https:%2F%2Fopen.spotify.com%2F
 - Open Developer Tools (CTRL+SHIFT+I or F12) and head to the "Network" tab and make sure it is recording.
 - Login to Spotify.
-- Search/Filter for `?flow_id` or `?flow` (if ?flow_id is not available) in the "Network" tab.
+- Search/Filter for `fraud` or `?flow_ctx` or `masthead` in the "Network" tab. (some of these may be patched, try others)
 - Under cookies for the request, you will see "sp_dc" and "sp_key".
 - Close the window ***WITHOUT LOGGING OUT*** (else said cookies will be made invalid).
 
 ### Examples
-- Always using: `import spotify_lyrics_scraper as spotify`
+Always using: `import spotify_lyrics_scraper as spotify`
 ##### Example 1
 ```
 token = spotify.getToken("SP_DC Here")
